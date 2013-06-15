@@ -1,0 +1,1 @@
+design the database with all the appropriate tables.
