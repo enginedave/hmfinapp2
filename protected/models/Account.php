@@ -53,6 +53,7 @@ class Account extends CActiveRecord
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, user_id, acc_name, acc_type, acc_balance, create_time, create_user_id, update_time, update_user_id', 'safe', 'on'=>'search'),
+			array('acc_name, acc_type', 'required'),
 		);
 	}
 
